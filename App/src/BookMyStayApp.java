@@ -46,7 +46,6 @@ public class BookMyStayApp {
         scanner.close();
     }
 
-    // Use Case 1: Search Hotels
     private static void searchHotels(Scanner scanner) {
         System.out.print("Enter city: ");
         String city = scanner.nextLine();
@@ -57,7 +56,6 @@ public class BookMyStayApp {
         System.out.println("3. Budget Inn");
     }
 
-    // Use Case 2: Book Room
     private static void bookRoom(Scanner scanner) {
         System.out.print("Enter hotel name: ");
         String hotel = scanner.nextLine();
@@ -68,7 +66,6 @@ public class BookMyStayApp {
         System.out.println("Booking confirmed at " + hotel + " for " + rooms + " room(s).");
     }
 
-    // Use Case 3: View Booking
     private static void viewBooking(Scanner scanner) {
         System.out.print("Enter booking ID: ");
         String bookingId = scanner.nextLine();
